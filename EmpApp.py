@@ -82,7 +82,8 @@ def AddEmp():
 
 @app.route("/fetchdata", methods=['POST','GET'])
 def fetchdata():
-    return render_template("GetEmpOutput.html",)
+    msg="Hello"
+    return render_template("GetEmpOutput.html",msg=msg)
 
 @app.route("/editdata", methods=['POST', 'GET'])
 def editdata():
