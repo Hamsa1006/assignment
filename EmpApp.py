@@ -28,7 +28,8 @@ def home():
 
 @app.route("/about", methods=['POST' , 'GET'])
 def about():
-    return render_template('AboutUs.html')
+    msg="Hello World"
+    return render_template('AboutUs.html', msg=msg)
 
 
 @app.route("/addemp", methods=['POST'])
