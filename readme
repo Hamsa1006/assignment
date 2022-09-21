@@ -4,8 +4,8 @@
 #!/bin/bash
 yum update -y
 yum install git -y
-git clone https://github.com/Hamsa1006/assg-live.git
-cd assg-live
+git clone https://github.com/Hamsa1006/assignment.git
+cd assignment
 pip3 install flask
 pip3 install pymysql
 pip3 install boto3
